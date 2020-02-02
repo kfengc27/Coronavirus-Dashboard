@@ -16,7 +16,7 @@ export const Timeline = {
 
 export const Faq = {
   path: '/faq',
-  title: 'Faq',
+  title: 'FAQ',
   component: lazy(() => import(/* webpackChunkName: "faq" */ './Faq')),
 };
 
