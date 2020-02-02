@@ -18,10 +18,10 @@ body {
 
 .link {
   color: #dfdfef;
-  text-decoration: underline;
 
   &:hover {
     color: darken(#dfdfef, 25%);
+    text-decoration: none;
   }
 }
 
