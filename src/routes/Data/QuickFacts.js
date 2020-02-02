@@ -80,11 +80,11 @@ export default function QuickFacts({ data }) {
           <CardTitle className="mb-0">
             <h1>Quick Facts</h1>
           </CardTitle>
-        </CardHeader>
-        <CardBody>
           <CardSubtitle>
             <h6>Data is updated every 10 minutes</h6>
           </CardSubtitle>
+        </CardHeader>
+        <CardBody>
           <dl>
             {Object.entries(data).map(([key, value]) => (
               <Fact type={key} amount={value} key={key} />
