@@ -8,7 +8,7 @@ export default function Layout({ children }) {
       <header>
         <Navigation />
       </header>
-      <main>{children}</main>
+      <main className="container-fluid">{children}</main>
     </>
   );
 }

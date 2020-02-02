@@ -1,5 +1,13 @@
 import React from 'react';
 
+import { QuickFacts } from '../components';
+
 export default function Data() {
-  return <h1>Data</h1>;
+  return (
+    <div className="row">
+      <div className="col">
+        <QuickFacts />
+      </div>
+    </div>
+  );
 }
