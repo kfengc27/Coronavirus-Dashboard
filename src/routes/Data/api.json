@@ -1,0 +1,239 @@
+{
+  "quickFacts": {
+    "confirmed": 14641,
+    "deaths": 305,
+    "recovered": 328,
+    "suspected": 19544,
+    "countries": 23
+  },
+  "chineseRegions": [
+    {
+      "city": "Hong Kong",
+      "confirmed": 14,
+      "source": "https://www.info.gov.hk/gia/general/202002/01/P2020020100795.htm"
+    },
+    {
+      "city": "Taiwan",
+      "confirmed": 10,
+      "source": "https://www.mohw.gov.tw/cp-4636-51263-1.html"
+    },
+    {
+      "city": "Macau",
+      "confirmed": 8,
+      "source": "https://news.gov.mo/detail/zh-hant/N20BBaGyMz;jsessionid=0D60BE8F971A9AF94452A61990D0B88B.app03?0"
+    }
+  ],
+  "chineseMainland": [
+    {
+      "city": "Hubei province (including Wuhan)",
+      "confirmed": 9074,
+      "serious": 1118,
+      "critical": 444,
+      "dead": 294,
+      "source": "http://wjw.hubei.gov.cn/fbjd/dtyw/202002/t20200202_2017658.shtml"
+    },
+    {
+      "city": "Zhejiang province",
+      "confirmed": 661,
+      "serious": 42,
+      "critical": 12,
+      "source": "https://www.zjwjw.gov.cn/art/2020/2/2/art_1202101_41867030.html"
+    },
+    {
+      "city": "Guangdong province",
+      "confirmed": 632,
+      "serious": 55,
+      "critical": 18,
+      "source": "http://wsjkw.gd.gov.cn/zwyw_yqxx/content/post_2881699.html"
+    },
+    {
+      "city": "Henan province",
+      "confirmed": 493,
+      "serious": 32,
+      "critical": 12,
+      "dead": 2,
+      "source": "https://m.weibo.cn/status/4467435871051673"
+    },
+    {
+      "city": "Hunan province",
+      "confirmed": 463,
+      "serious": 44,
+      "source": "http://wjw.hunan.gov.cn/wjw/xxgk/gzdt/zyxw_1/202002/t20200202_11167499.html"
+    },
+    {
+      "city": "Anhui province",
+      "confirmed": 340,
+      "serious": 4,
+      "source": "http://wjw.ah.gov.cn/news_details_54407.html"
+    },
+    {
+      "city": "Jiangxi province",
+      "confirmed": 333,
+      "serious": 32,
+      "source": "http://hc.jiangxi.gov.cn/doc/2020/02/02/137963.shtml"
+    },
+    {
+      "city": "Chongqing",
+      "confirmed": 275,
+      "serious": 26,
+      "critical": 6,
+      "dead": 1,
+      "source": "http://wsjkw.cq.gov.cn/tzgg/20200202/250910.html"
+    },
+    {
+      "city": "Jiangsu province",
+      "confirmed": 236,
+      "serious": 1,
+      "source": "https://m.weibo.cn/status/4467442296554293"
+    },
+    {
+      "city": "Sichuan province",
+      "confirmed": 232,
+      "serious": 5,
+      "dead": 1,
+      "source": "https://m.weibo.cn/status/4467437263052815"
+    },
+    {
+      "city": "Shandong province",
+      "confirmed": 230,
+      "serious": 15,
+      "critical": 1,
+      "source": "https://m.weibo.cn/status/4467544591222398"
+    },
+    {
+      "city": "Beijing",
+      "confirmed": 191,
+      "serious": 10,
+      "dead": 1,
+      "source": "http://wjw.beijing.gov.cn/xwzx_20031/wnxw/202002/t20200202_1622729.html"
+    },
+    {
+      "city": "Shanghai",
+      "confirmed": 182,
+      "serious": 7,
+      "critical": 4,
+      "dead": 1,
+      "source": "https://m.weibo.cn/status/4467511959723633"
+    },
+    {
+      "city": "Fujian province",
+      "confirmed": 159,
+      "serious": 7,
+      "critical": 5,
+      "source": "https://mp.weixin.qq.com/s/dsNlqkI21cT1p6jswceFZw"
+    },
+    {
+      "city": "Shaanxi province",
+      "confirmed": 116,
+      "serious": 1,
+      "source": "http://sxwjw.shaanxi.gov.cn/art/2020/2/2/art_9_67618.html"
+    },
+    {
+      "city": "Guangxi Region",
+      "confirmed": 111,
+      "serious": 6,
+      "critical": 2,
+      "source": "http://wsjkw.gxzf.gov.cn/gzdt/bt/2020/0202/68202.html"
+    },
+    {
+      "city": "Yunnan province",
+      "confirmed": 105,
+      "serious": 7,
+      "critical": 3,
+      "source": "https://m.weibo.cn/status/4467582167614508"
+    },
+    {
+      "city": "Hebei province",
+      "confirmed": 104,
+      "serious": 9,
+      "dead": 1,
+      "source": "http://www.hebwst.gov.cn/index.do?id=396271&templet=content&cid=14"
+    },
+    {
+      "city": "Heilongjiang province",
+      "confirmed": 95,
+      "serious": 13,
+      "dead": 2,
+      "source": "http://wsjkw.hlj.gov.cn/index.php/Home/Zwgk/show/newsid/7754/navid/42/stypeid/"
+    },
+    {
+      "city": "Liaoning province",
+      "confirmed": 69,
+      "serious": 5,
+      "source": "https://m.weibo.cn/status/4467542896397898"
+    },
+    {
+      "city": "Hainan province",
+      "confirmed": 68,
+      "serious": 10,
+      "dead": 1,
+      "source": "http://wst.hainan.gov.cn/swjw/rdzt/yqfk/202002/t20200202_2742640.html"
+    },
+    {
+      "city": "Shanxi province",
+      "confirmed": 56,
+      "serious": 3,
+      "critical": 1,
+      "source": "http://wjw.shanxi.gov.cn/wjywl02/24587.hrh"
+    },
+    {
+      "city": "Tianjin",
+      "confirmed": 48,
+      "serious": 15,
+      "critical": 3,
+      "source": "https://wx3.sinaimg.cn/large/c15f6184ly1gbi0kjw8l5j20cd0okgvl.jpg"
+    },
+    {
+      "city": "Gansu province",
+      "confirmed": 40,
+      "serious": 6,
+      "critical": 1,
+      "source": "https://m.weibo.cn/status/4467300671301184"
+    },
+    {
+      "city": "Guizhou province",
+      "confirmed": 38,
+      "serious": 6,
+      "critical": 2,
+      "source": "https://m.weibo.cn/status/4467437452206900"
+    },
+    {
+      "city": "Ningxia Region",
+      "confirmed": 28,
+      "serious": 4,
+      "source": "http://wsjkw.nx.gov.cn/info/1140/13380.htm"
+    },
+    {
+      "city": "Inner Mongolia",
+      "confirmed": 27,
+      "serious": 2,
+      "critical": 2,
+      "source": "http://wjw.nmg.gov.cn/doc/2020/02/02/286100.shtml"
+    },
+    {
+      "city": "Jilin province",
+      "confirmed": 23,
+      "serious": 4,
+      "source": "http://wsjkw.jl.gov.cn/xwzx/xwfb/202002/t20200202_6672614.html"
+    },
+    {
+      "city": "Xinjiang",
+      "confirmed": 21,
+      "serious": 4,
+      "critical": 1,
+      "source": "http://www.xjhfpc.gov.cn/info/1495/17882.htm"
+    },
+    {
+      "city": "Qinghai province",
+      "confirmed": 11,
+      "serious": 1,
+      "critical": 7,
+      "source": "https://m.weibo.cn/status/4467497853599632"
+    },
+    {
+      "city": "Tibet",
+      "confirmed": 1,
+      "source": "http://www.nhc.gov.cn/yjb/s7860/202001/e71bd2e7a0824ca69f87bbf1bef2a3c9.shtml"
+    }
+  ]
+}

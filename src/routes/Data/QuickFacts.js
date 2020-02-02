@@ -8,7 +8,13 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import classnames from 'classnames';
 import React from 'react';
-import { Card, CardBody, CardTitle, CardSubtitle } from 'reactstrap';
+import {
+  Card,
+  CardBody,
+  CardTitle,
+  CardSubtitle,
+  CardHeader,
+} from 'reactstrap';
 
 import styles from './QuickFacts.module.scss';
 
@@ -18,13 +24,13 @@ const metaMap = {
     text: 'Confirmed cases',
     color: 'warning',
   },
-  recovered: {
-    icon: faHeartbeat,
+  deaths: {
+    icon: faSkullCrossbones,
     text: 'Total Deaths',
     color: 'danger',
   },
-  deaths: {
-    icon: faSkullCrossbones,
+  recovered: {
+    icon: faHeartbeat,
     text: 'Total Recovered',
     color: 'success',
   },
@@ -52,8 +58,14 @@ function Fact({ type, amount }) {
 
   return (
     <>
-      <dt className={classnames(styles.factDescription)}>{text}</dt>
-      <dd className={classnames(styles.factAmount, color && `text-${color}`)}>
+      <dt className={styles.factDescription}>{text}</dt>
+      <dd
+        className={classnames(
+          'font-weight-bold',
+          styles.factAmount,
+          color && `text-${color}`,
+        )}
+      >
         <FontAwesomeIcon icon={icon} /> {amount.toLocaleString()}
       </dd>
     </>
@@ -63,11 +75,13 @@ function Fact({ type, amount }) {
 export default function QuickFacts({ data }) {
   return (
     <article className="col-12 text-center">
-      <Card className={styles.card}>
-        <CardBody>
-          <CardTitle>
+      <Card>
+        <CardHeader>
+          <CardTitle className="mb-0">
             <h1>Quick Facts</h1>
           </CardTitle>
+        </CardHeader>
+        <CardBody>
           <CardSubtitle>
             <h6>Data is updated every 10 minutes</h6>
           </CardSubtitle>

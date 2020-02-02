@@ -1,16 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import { Row, Col } from 'reactstrap';
 
+import ChineseMainland from './ChineseMainland';
+import ChineseRegions from './ChineseRegions';
 import QuickFacts from './QuickFacts';
 
-const dummyData = {
-  quickFacts: {
-    confirmed: 14641,
-    deaths: 305,
-    recovered: 328,
-    suspected: 19544,
-    countries: 23,
-  },
-};
+const dummyData = require('./api.json');
 
 export default function Data() {
   const [data, setData] = useState(dummyData);
@@ -18,10 +13,14 @@ export default function Data() {
   // useEffect to get data
 
   return (
-    <div className="row">
-      <div className="col">
+    <Row>
+      <Col>
         <QuickFacts data={data.quickFacts} />
-      </div>
-    </div>
+        <ChineseRegions data={data.chineseRegions} />
+      </Col>
+      <Col>
+        <ChineseMainland data={data.chineseMainland} />
+      </Col>
+    </Row>
   );
 }

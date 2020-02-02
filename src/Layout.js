@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container } from 'reactstrap';
 
 import { Navigation } from './components';
 
@@ -8,7 +9,9 @@ export default function Layout({ children }) {
       <header>
         <Navigation />
       </header>
-      <main className="container-fluid">{children}</main>
+      <Container tag="main" fluid={true}>
+        {children}
+      </Container>
     </>
   );
 }
