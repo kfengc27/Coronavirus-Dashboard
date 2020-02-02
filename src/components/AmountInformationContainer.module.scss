@@ -1,19 +1,43 @@
+@import '../assets/scss/breakpoints';
+
 .article {
   display: flex;
   justify-content: space-between;
+
+  @include tablet {
+    display: block;
+  }
 
   > div:first-of-type {
     display: flex;
     flex-direction: column;
 
+    @include tablet {
+      flex-direction: row;
+    }
+
     h6 {
       flex-grow: 1;
+
+      @include tablet {
+        display: inline-block;
+      }
+    }
+
+    a {
+      @include tablet {
+        margin-left: 0.5rem;
+      }
     }
   }
 }
 
 .amountInformationContainer {
   width: 35%;
+
+  @include tablet {
+    width: auto;
+  }
 
   > div {
     display: flex;
