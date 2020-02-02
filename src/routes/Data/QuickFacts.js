@@ -22,7 +22,7 @@ const metaMap = {
   confirmed: {
     icon: faCheck,
     text: 'Confirmed cases',
-    color: 'warning',
+    color: 'yellow',
   },
   deaths: {
     icon: faSkullCrossbones,

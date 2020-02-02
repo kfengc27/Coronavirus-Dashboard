@@ -235,5 +235,123 @@
       "confirmed": 1,
       "source": "http://www.nhc.gov.cn/yjb/s7860/202001/e71bd2e7a0824ca69f87bbf1bef2a3c9.shtml"
     }
+  ],
+  "international": [
+    {
+      "city": "Japan",
+      "confirmed": 20,
+      "source": "https://www.mhlw.go.jp/stf/newpage_09278.html"
+    },
+    {
+      "city": "Thailand",
+      "confirmed": 19,
+      "serious": 7,
+      "source": "https://www.bbc.com/thai/amp/thailand-51321489"
+    },
+    {
+      "city": "Singapore",
+      "confirmed": 18,
+      "source": "https://bnonews.com/wp-content/uploads/2020/02/212020case.pdf"
+    },
+    {
+      "city": "South Korea",
+      "confirmed": 15,
+      "source": "https://www.yna.co.kr/view/AKR20200202000700017"
+    },
+    {
+      "city": "Australia",
+      "confirmed": 12,
+      "serious": 2,
+      "source": "https://www.abc.net.au/news/2020-02-01/coronavirus-confirmed-in-south-australia-and-victoria/11920754"
+    },
+    {
+      "city": "Germany",
+      "confirmed": 10,
+      "source": "https://www.kreis-germersheim.de/kv_germersheim/Unsere%20Themen/Pressemitteilungen/2020/Gemeinsame%20Pressemitteilung%20der%20Luftwaffe,%20dem%20Deutschem%20Roten%20Kreuz,%20dem%20Landkreis%20und%20der%20Stadt%20Germersheim/"
+    },
+    {
+      "city": "Malaysia",
+      "confirmed": 8,
+      "source": "https://kpkesihatan.com/2020/01/30/kenyataan-akhbar-kpk-30-januari-2020-situasi-terkini-jangkitan-2019-novel-coronavirus-2019-ncov-di-malaysia/"
+    },
+    {
+      "city": "United States",
+      "confirmed": 8,
+      "source": "https://www.mass.gov/news/man-returning-from-wuhan-china-is-first-case-of-2019-novel-coronavirus-confirmed-in"
+    },
+    {
+      "city": "Vietnam",
+      "confirmed": 7,
+      "serious": 1,
+      "source": "https://vietnamnet.vn/vn/suc-khoe/suc-khoe-24h/viet-nam-xac-dinh-truong-hop-thu-7-nhiem-virus-corona-613129.html"
+    },
+    {
+      "city": "France",
+      "confirmed": 6,
+      "serious": 2,
+      "source": "https://www.france24.com/en/20200130-france-confirms-sixth-case-of-coronavirus-infection-health-official-says"
+    },
+    {
+      "city": "UAE",
+      "confirmed": 5,
+      "source": "https://www.wam.ae/en/details/1395302820367"
+    },
+    {
+      "city": "Canada",
+      "confirmed": 4,
+      "source": "https://news.ontario.ca/mohltc/en/2020/01/ontario-confirms-third-case-of-2019-novel-coronavirus.html"
+    },
+    {
+      "city": "England",
+      "confirmed": 2,
+      "source": "https://www.gov.uk/government/news/cmo-confirms-cases-of-coronavirus-in-england"
+    },
+    {
+      "city": "Russia",
+      "confirmed": 2,
+      "source": "https://tass.ru/obschestvo/7656549"
+    },
+    {
+      "city": "Philippines",
+      "confirmed": 2,
+      "dead": 1,
+      "source": "https://twitter.com/WHOPhilippines/status/1223797298477424641"
+    },
+    {
+      "city": "India",
+      "confirmed": 2,
+      "source": "https://twitter.com/MoHFW_INDIA/status/1223815521533079554"
+    },
+    {
+      "city": "Italy",
+      "confirmed": 2,
+      "source": "http://www.rainews.it/dl/rainews/articoli/Conte-due-casi-di-coronavirus-accertati-in-Italia-60b4294a-3a3f-4b05-ad1f-b096d1c60110.html"
+    },
+    {
+      "city": "Nepal",
+      "confirmed": 1,
+      "source": "https://kathmandupost.com/2/2020/01/24/officials-confirm-novel-coronavirus-in-nepali-man-who-returned-from-wuhan-earlier-this-month"
+    },
+    {
+      "city": "Cambodia",
+      "confirmed": 1,
+      "source": "https://twitter.com/VOD_English/status/1221769368180121603"
+    },
+    {
+      "city": "Sri Lanka",
+      "confirmed": 1,
+      "serious": 1,
+      "source": "https://www.reuters.com/article/us-health-china-sri-lanka/sri-lanka-confirms-first-case-of-coronavirus-health-official-idUSKBN1ZQ1WF"
+    },
+    {
+      "city": "Finland",
+      "confirmed": 1,
+      "source": "https://www.hs.fi/kotimaa/art-2000006387778.html"
+    },
+    {
+      "city": "Sweden",
+      "confirmed": 1,
+      "source": "https://www.folkhalsomyndigheten.se/nyheter-och-press/nyhetsarkiv/2020/januari/bekraftat-fall-av-nytt-coronavirus-i-sverige/"
+    }
   ]
 }

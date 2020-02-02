@@ -24,3 +24,11 @@ body {
     color: darken(#dfdfef, 25%);
   }
 }
+
+.text-yellow {
+  color: yellow;
+}
+
+.text-orange {
+  color: var(--orange);
+}

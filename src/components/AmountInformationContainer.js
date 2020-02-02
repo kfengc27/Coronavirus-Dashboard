@@ -15,19 +15,19 @@ import ExternalLink from './ExternalLink';
 function getAmountInformationArray(confirmed, serious, critical, dead) {
   return [
     {
-      color: 'warning',
+      color: 'yellow',
       description: 'confirmed',
       amount: confirmed,
       percent: undefined,
     },
     {
-      color: undefined,
+      color: 'warning',
       description: 'serious',
       amount: serious,
       percent: ((serious / confirmed) * 100).toFixed(2),
     },
     {
-      color: undefined,
+      color: 'orange',
       description: 'critical',
       amount: critical,
       percent: ((critical / confirmed) * 100).toFixed(2),

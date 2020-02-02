@@ -3,6 +3,7 @@ import { Row, Col } from 'reactstrap';
 
 import ChineseMainland from './ChineseMainland';
 import ChineseRegions from './ChineseRegions';
+import International from './International';
 import QuickFacts from './QuickFacts';
 
 const dummyData = require('./api.json');
@@ -20,6 +21,9 @@ export default function Data() {
       </Col>
       <Col>
         <ChineseMainland data={data.chineseMainland} />
+      </Col>
+      <Col>
+        <International data={data.international} />
       </Col>
     </Row>
   );
