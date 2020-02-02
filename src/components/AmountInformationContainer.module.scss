@@ -1,46 +1,60 @@
 @import '../assets/scss/breakpoints';
 
 .article {
-  display: flex;
-  justify-content: space-between;
-
-  @include tablet {
-    display: block;
-  }
+  display: block;
 
   > div:first-of-type {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
     @include tablet {
-      flex-direction: row;
+      display: block;
     }
 
     h6 {
       flex-grow: 1;
+      display: inline-block;
 
       @include tablet {
-        display: inline-block;
+        display: block;
       }
     }
 
     a {
+      margin-left: 0.5rem;
+
       @include tablet {
-        margin-left: 0.5rem;
+        margin-left: initial;
       }
     }
   }
 }
 
 .amountInformationContainer {
-  width: 35%;
-
   @include tablet {
-    width: auto;
+    margin-top: 0.75rem;
   }
 
   > div {
     display: flex;
+
+    @include mobile {
+      &[class*='text-yellow'] {
+        border-bottom: 1px solid var(--yellow);
+      }
+
+      &[class*='text-warning'] {
+        border-bottom: 1px solid var(--warning);
+      }
+
+      &[class*='text-orange'] {
+        border-bottom: 1px solid var(--orange);
+      }
+
+      &[class*='text-danger'] {
+        border-bottom: 1px solid var(--danger);
+      }
+    }
 
     > span:last-of-type {
       flex-grow: 1;
