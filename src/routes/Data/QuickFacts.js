@@ -81,7 +81,7 @@ export default function QuickFacts({ data }) {
             <h1>Quick Facts</h1>
           </CardTitle>
           <CardSubtitle>
-            <h6>Data is updated every 10 minutes</h6>
+            <h6 className="font-italic">Data is updated every 10 minutes</h6>
           </CardSubtitle>
         </CardHeader>
         <CardBody>
